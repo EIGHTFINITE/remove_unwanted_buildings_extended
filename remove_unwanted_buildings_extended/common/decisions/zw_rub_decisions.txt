@@ -1,0 +1,238 @@
+﻿zw_remove_buildings_after_conquer_decision = {
+
+	is_shown = {
+		is_player = yes
+		any_scope_state = {
+			has_decree = decree_zw_remove_buildings
+		}
+	}
+
+	possible = {}
+
+	when_taken = {
+		every_scope_state = {
+			limit = {
+				has_decree = decree_zw_remove_buildings
+			}
+			# industry
+			zw_remove_building_effect = {
+				building_1 = building_arts_academy
+				construction_cost = 400
+			}
+			zw_remove_building_effect = {
+				building_1 = building_chemical_plants
+				construction_cost = 800
+			}
+			zw_remove_building_effect = {
+				building_1 = building_electrics_industry
+				construction_cost = 800
+			}
+			zw_remove_building_effect = {
+				building_1 = building_explosives_factory	
+				construction_cost = 800
+			}
+			zw_remove_building_effect = {
+				building_1 = building_food_industry
+				construction_cost = 600
+			}
+			zw_remove_building_effect = {
+				building_1 = building_furniture_manufacturies
+				construction_cost = 600
+			}
+			zw_remove_building_effect = {
+				building_1 = building_glassworks
+				construction_cost = 600
+			}
+			zw_remove_building_effect = {
+				building_1 = building_motor_industry
+				construction_cost = 800
+			}
+			zw_remove_building_effect = {
+				building_1 = building_paper_mills
+				construction_cost = 600
+			}
+			zw_remove_building_effect = {
+				building_1 = building_steel_mills
+				construction_cost = 800
+			}
+			zw_remove_building_effect = {
+				building_1 = building_textile_mills
+				construction_cost = 600
+			}
+			zw_remove_building_effect = {
+				building_1 = building_tooling_workshops
+				construction_cost = 600
+			}
+			zw_remove_building_effect = {
+				building_1 = building_shipyards
+				construction_cost = 600
+			}
+			zw_remove_building_effect = {
+				building_1 = building_synthetics_plants
+				construction_cost = 800
+			}
+			# planatation
+			zw_remove_building_effect = {
+				building_1 = building_banana_plantation
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_coffee_plantation
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_cotton_plantation
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_dye_plantation
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_opium_plantation
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_silk_plantation
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_sugar_plantation
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_tea_plantation
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_tobacco_plantation
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_vineyard_plantation
+				construction_cost = 200
+			}
+			# farm
+			zw_remove_building_effect = {
+				building_1 = building_maize_farm
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_millet_farm
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_rice_farm
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_rye_farm
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_wheat_farm
+				construction_cost = 200
+			}
+			# ranch
+			zw_remove_building_effect = {
+				building_1 = building_livestock_ranch
+				construction_cost = 200
+			}
+			# mine
+			zw_remove_building_effect = {
+				building_1 = building_coal_mine
+				construction_cost = 400
+			}
+			zw_remove_building_effect = {
+				building_1 = building_gold_mine
+				construction_cost = 400
+			}
+			zw_remove_building_effect = {
+				building_1 = building_iron_mine
+				construction_cost = 400
+			}
+			zw_remove_building_effect = {
+				building_1 = building_lead_mine
+				construction_cost = 400
+			}
+			zw_remove_building_effect = {
+				building_1 = building_sulfur_mine
+				construction_cost = 400
+			}
+			# misc
+			zw_remove_building_effect = {
+				building_1 = building_fishing_wharf
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_logging_camp
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_oil_rig
+				construction_cost = 400
+			}
+			zw_remove_building_effect = {
+				building_1 = building_rubber_plantation
+				construction_cost = 200
+			}
+			zw_remove_building_effect = {
+				building_1 = building_whaling_station
+				construction_cost = 200
+			}
+			# military industry
+			zw_remove_building_effect = {
+				building_1 = building_arms_industry
+				construction_cost = 600
+			}
+			zw_remove_building_effect = {
+				building_1 = building_artillery_foundries
+				construction_cost = 600
+			}
+			zw_remove_building_effect = {
+				building_1 = building_military_shipyards
+				construction_cost = 800
+			}
+			zw_remove_building_effect = {
+				building_1 = building_munition_plants
+				construction_cost = 600
+			}
+			zw_remove_building_effect = {
+				building_1 = building_war_machine_industry
+				construction_cost = 800
+			}
+			# infrastructure
+			zw_remove_building_effect = {
+				building_1 = building_power_plant
+				construction_cost = 800
+			}
+			zw_remove_building_effect = {
+				building_1 = building_railway
+				construction_cost = 800
+			}
+		}
+	}
+}
+
+zw_remove_conscripts_decision = {
+
+	is_shown = {
+		is_player = yes
+		any_scope_state = {
+			has_decree = decree_zw_remove_buildings
+			has_building = building_conscription_center
+		}
+	}
+
+	possible = {}
+
+	when_taken = {
+		every_scope_state = {
+			limit = {
+				has_decree = decree_zw_remove_buildings
+				has_building = building_conscription_center
+			}
+			remove_building = building_conscription_center
+		}
+	}
+}
