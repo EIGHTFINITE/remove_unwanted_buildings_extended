@@ -1,0 +1,12 @@
+{
+  "name" : "remove_unwanted_buildings_extended",
+  "id" : "",
+  "version" : "1.0",
+  "supported_game_version" : "",
+  "short_description" : "",
+  "tags" : ["Balance", "Expansion", "Economy And Buildings", "Fixes", "Gameplay", "Utilities"],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
