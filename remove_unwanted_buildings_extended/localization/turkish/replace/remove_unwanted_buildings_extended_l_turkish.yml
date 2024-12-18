@@ -1,0 +1,12 @@
+﻿l_turkish:
+ zw_remove_buildings_after_conquer_decision_desc:0 "Remove $concept_subsidized$ buildings in states with $decree_zw_remove_buildings$ decree."
+ zw_remove_conscripts_decision:0 "Remove $building_conscription_center$"
+ zw_remove_conscripts_decision_desc:0 "Remove $building_conscription_center$ in states with $decree_zw_remove_buildings$ decree."
+ zw_remove_barracks_decision:0 "Remove $building_barracks$"
+ zw_remove_barracks_decision_desc:0 "Remove $building_barracks$ in states with $decree_zw_remove_buildings$ decree."
+ zw_remove_naval_base_decision:0 "Remove $building_naval_base$"
+ zw_remove_naval_base_decision_desc:0 "Remove $building_naval_base$ in states with $decree_zw_remove_buildings$ decree."
+ zw_remove_manor_house_decision:0 "Remove $building_manor_house$"
+ zw_remove_manor_house_decision_desc:0 "Remove $building_manor_house$ in states with $decree_zw_remove_buildings$ decree."
+ zw_remove_financial_district_decision:0 "Remove $building_financial_district$"
+ zw_remove_financial_district_decision_desc:0 "Remove $building_financial_district$ in states with $decree_zw_remove_buildings$ decree."
