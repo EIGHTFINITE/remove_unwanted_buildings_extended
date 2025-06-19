@@ -1,7 +1,7 @@
 ﻿l_polish:
- zw_remove_buildings_after_conquer_decision_desc:0 "Remove $concept_subsidized$ buildings in states with $decree_zw_remove_buildings$ decree."
- zw_remove_conscripts_decision:0 "Remove $building_conscription_center$"
- zw_remove_conscripts_decision_desc:0 "Remove $building_conscription_center$ in states with $decree_zw_remove_buildings$ decree."
+ zw_decision_remove_buildings_desc:0 "Remove $concept_subsidized$ buildings in states with $decree_zw_remove_buildings$ decree."
+ zw_decision_remove_conscription_centers:0 "Remove $building_conscription_center$"
+ zw_decision_remove_conscription_centers_desc:0 "Remove $building_conscription_center$ in states with $decree_zw_remove_buildings$ decree."
  zw_remove_barracks_decision:0 "Remove $building_barracks$"
  zw_remove_barracks_decision_desc:0 "Remove $building_barracks$ in states with $decree_zw_remove_buildings$ decree."
  zw_remove_naval_base_decision:0 "Remove $building_naval_base$"
