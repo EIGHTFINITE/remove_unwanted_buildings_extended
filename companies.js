@@ -184,7 +184,50 @@
 	'company_basic_weapons',
 	'company_construction_power_bloc'];
 
-	var string = 'zw_remove_building_company_regional_headquarter_decision = {\n';
+	var string = 'zw_remove_company_headquarter_decision = {\n';
+	string += '	is_shown = {\n';
+	string += '		is_player = yes\n';
+	string += '		any_scope_state = {\n';
+	string += '			has_decree = decree_zw_remove_buildings\n';
+	string += '			OR = {\n';
+	string += '				has_building = building_company_headquarter\n';
+	for (var i = 0; i < companies.length; i++) {
+		string += '				has_building = building_'+companies[i]+'\n';
+	}
+	string += '			}\n';
+	string += '		}\n';
+	string += '	}\n';
+	string += '\n';
+	string += '	when_taken = {\n';
+	string += '		every_scope_state = {\n';
+	string += '			limit = {\n';
+	string += '				has_decree = decree_zw_remove_buildings\n';
+	string += '				OR = {\n';
+	string += '					has_building = building_company_headquarter\n';
+	for (var i = 0; i < companies.length; i++) {
+		string += '					has_building = building_'+companies[i]+'\n';
+	}
+	string += '				}\n';
+	string += '			}\n';
+	string += '			if = {\n';
+	string += '				limit = {\n';
+	string += '					has_building = building_company_headquarter\n';
+	string += '				}\n';
+	string += '				remove_building = building_company_headquarter\n';
+	string += '			}\n';
+	for (var i = 0; i < companies.length; i++) {
+		string += '			if = {\n';
+		string += '				limit = {\n';
+		string += '					has_building = building_'+companies[i]+'\n';
+		string += '				}\n';
+		string += '				remove_building = building_'+companies[i]+'\n';
+		string += '			}\n';
+	}
+	string += '		}\n';
+	string += '	}\n';
+	string += '}\n';
+	string += '\n';
+	string += 'zw_remove_company_regional_headquarter_decision = {\n';
 	string += '	is_shown = {\n';
 	string += '		is_player = yes\n';
 	string += '		any_scope_state = {\n';

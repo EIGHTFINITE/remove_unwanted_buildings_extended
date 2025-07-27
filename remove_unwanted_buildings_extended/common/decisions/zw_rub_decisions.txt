@@ -375,7 +375,1508 @@ zw_remove_financial_district_decision = {
 	}
 }
 
-zw_remove_building_company_regional_headquarter_decision = {
+zw_remove_company_headquarter_decision = {
+	is_shown = {
+		is_player = yes
+		any_scope_state = {
+			has_decree = decree_zw_remove_buildings
+			OR = {
+				has_building = building_company_headquarter
+				has_building = building_company_misr
+				has_building = building_company_egyptian_rail
+				has_building = building_company_suez_company
+				has_building = building_company_fundidora_monterrey
+				has_building = building_company_el_aguila
+				has_building = building_company_csfa
+				has_building = building_company_caribbean_petroleum
+				has_building = building_company_bunge_born
+				has_building = building_company_la_rosada
+				has_building = building_company_famae
+				has_building = building_company_peruvian_amazon
+				has_building = building_company_kablin
+				has_building = building_company_hbc
+				has_building = building_company_panama_company
+				has_building = building_company_east_india_company
+				has_building = building_company_imperial_arsenal
+				has_building = building_company_ottoman_tobacco_regie
+				has_building = building_company_allatini_mills
+				has_building = building_company_orient_express
+				has_building = building_company_great_indian_railway
+				has_building = building_company_tata
+				has_building = building_company_sunhwaguk
+				has_building = building_company_nam_dinh
+				has_building = building_company_imperial_tobacco
+				has_building = building_company_san_miguel
+				has_building = building_company_william_sandford
+				has_building = building_company_b_grimm
+				has_building = building_company_skoda
+				has_building = building_company_mav
+				has_building = building_company_manfred_weiss
+				has_building = building_company_galician_carpathian_oil
+				has_building = building_company_oevg
+				has_building = building_company_kaiping_mining
+				has_building = building_company_hanyang_arsenal
+				has_building = building_company_foochow_arsenal
+				has_building = building_company_jingdezhen
+				has_building = building_company_sao_paulo_railway
+				has_building = building_company_estaleiro_maua
+				has_building = building_company_pernambuco_textiles
+				has_building = building_company_fundicao_ipanema
+				has_building = building_company_rossi
+				has_building = building_company_estanifera_llallagua
+				has_building = building_company_argentinian_wine
+				has_building = building_company_sudamericana_de_vapores
+				has_building = building_company_electricidad_de_caracas
+				has_building = building_company_cordoba_railway
+				has_building = building_company_eea
+				has_building = building_company_ccci
+				has_building = building_company_franco_belge
+				has_building = building_company_john_cockerill
+				has_building = building_company_nederlandse_petroleum
+				has_building = building_company_philips
+				has_building = building_company_basileiades
+				has_building = building_company_kouppas
+				has_building = building_company_ericsson
+				has_building = building_company_lkab
+				has_building = building_company_gotaverken
+				has_building = building_company_aker_mek
+				has_building = building_company_nokia
+				has_building = building_company_ursus
+				has_building = building_company_lilpop
+				has_building = building_company_mozambique_company
+				has_building = building_company_altos_hornos_de_vizcaya
+				has_building = building_company_duro_y_compania
+				has_building = building_company_espana_industrial
+				has_building = building_company_trubia
+				has_building = building_company_zastava
+				has_building = building_company_chr_hansens
+				has_building = building_company_ap_moller
+				has_building = building_company_cfr
+				has_building = building_company_romanian_star
+				has_building = building_company_societe_mokta_el_hadid
+				has_building = building_company_schneider_creusot
+				has_building = building_company_dmc
+				has_building = building_company_cgv
+				has_building = building_company_saint_etienne
+				has_building = building_company_fcm
+				has_building = building_company_mines_anzin
+				has_building = building_company_krupp
+				has_building = building_company_rheinmetall
+				has_building = building_company_schichau
+				has_building = building_company_siemens_and_halske
+				has_building = building_company_prussian_state_railways
+				has_building = building_company_basf
+				has_building = building_company_j_p_coats
+				has_building = building_company_armstrong_whitworth
+				has_building = building_company_john_brown
+				has_building = building_company_gwr
+				has_building = building_company_bolckow_vaughan
+				has_building = building_company_bengal_coal_company
+				has_building = building_company_bombay_dyeing_company
+				has_building = building_company_david_sassoon
+				has_building = building_company_bombay_burmah_trading_corporation
+				has_building = building_company_madura_mills
+				has_building = building_company_assam_company
+				has_building = building_company_wadia_shipbuilders
+				has_building = building_company_steel_brothers
+				has_building = building_company_ralli_brothers
+				has_building = building_company_calcutta_electric
+				has_building = building_company_ilva
+				has_building = building_company_ansaldo
+				has_building = building_company_ricordi
+				has_building = building_company_fiat
+				has_building = building_company_stt
+				has_building = building_company_mitsui
+				has_building = building_company_mantetsu
+				has_building = building_company_mitsubishi
+				has_building = building_company_ludwig_moser_and_sons
+				has_building = building_company_compania_sansinena_de_carnes_congeladas
+				has_building = building_company_konigliche_porzellan_manufaktur_meissen
+				has_building = building_company_jiangnan_weaving_bureaus
+				has_building = building_company_russian_american_company
+				has_building = building_company_maison_worth
+				has_building = building_company_lee_wilson
+				has_building = building_company_colt_firearms
+				has_building = building_company_gebruder_thonet
+				has_building = building_company_kinkozan_sobei
+				has_building = building_company_maple_and_co
+				has_building = building_company_ong_lung_sheng_tea_company
+				has_building = building_company_anglo_sicilian_sulphur_company
+				has_building = building_company_mantero_seta
+				has_building = building_company_norsk_hydro
+				has_building = building_company_massey_harris
+				has_building = building_company_de_beers
+				has_building = building_company_john_holt
+				has_building = building_company_imperial_ethiopian_railways
+				has_building = building_company_lanfang_kongsi
+				has_building = building_company_paradox
+				has_building = building_company_vodka_monopoly
+				has_building = building_company_putilov_company
+				has_building = building_company_branobel
+				has_building = building_company_izhevsk_arms_plant
+				has_building = building_company_savva_morozov
+				has_building = building_company_john_hughes
+				has_building = building_company_da_afghan_nassaji_sherkat
+				has_building = building_company_iranian_state_railway
+				has_building = building_company_tashkent_railroad
+				has_building = building_company_west_ural_petroleum
+				has_building = building_company_sherkat_shemali
+				has_building = building_company_opium_export_monopoly
+				has_building = building_company_sherkate_eslamiya
+				has_building = building_company_nicolas_portalis
+				has_building = building_company_hanseong_jeongi_hoesa
+				has_building = building_company_kirgizian_mining_company
+				has_building = building_company_persshelk
+				has_building = building_company_perskhlopok
+				has_building = building_company_moscow_irrigation_company
+				has_building = building_company_guinness
+				has_building = building_company_oriental_development_company
+				has_building = building_company_turkish_petroleum
+				has_building = building_company_anglo_persian_oil
+				has_building = building_company_national_iranian_oil
+				has_building = building_company_standard_oil
+				has_building = building_company_united_fruit
+				has_building = building_company_us_steel
+				has_building = building_company_general_electric
+				has_building = building_company_william_cramp
+				has_building = building_company_ford_motor
+				has_building = building_company_basic_agriculture_1
+				has_building = building_company_basic_agriculture_2
+				has_building = building_company_basic_fabrics
+				has_building = building_company_basic_colonial_plantations_1
+				has_building = building_company_basic_colonial_plantations_2
+				has_building = building_company_basic_silk_and_dye
+				has_building = building_company_basic_wine_and_fruit
+				has_building = building_company_basic_fishing
+				has_building = building_company_basic_forestry
+				has_building = building_company_basic_oil
+				has_building = building_company_basic_gold_mining
+				has_building = building_company_basic_metal_mining
+				has_building = building_company_basic_mineral_mining
+				has_building = building_company_basic_food
+				has_building = building_company_basic_paper
+				has_building = building_company_basic_home_goods
+				has_building = building_company_basic_textiles
+				has_building = building_company_basic_steel
+				has_building = building_company_basic_metalworks
+				has_building = building_company_basic_shipyards
+				has_building = building_company_basic_chemicals
+				has_building = building_company_basic_motors
+				has_building = building_company_basic_munitions
+				has_building = building_company_basic_electrics
+				has_building = building_company_basic_weapons
+				has_building = building_company_construction_power_bloc
+			}
+		}
+	}
+
+	when_taken = {
+		every_scope_state = {
+			limit = {
+				has_decree = decree_zw_remove_buildings
+				OR = {
+					has_building = building_company_headquarter
+					has_building = building_company_misr
+					has_building = building_company_egyptian_rail
+					has_building = building_company_suez_company
+					has_building = building_company_fundidora_monterrey
+					has_building = building_company_el_aguila
+					has_building = building_company_csfa
+					has_building = building_company_caribbean_petroleum
+					has_building = building_company_bunge_born
+					has_building = building_company_la_rosada
+					has_building = building_company_famae
+					has_building = building_company_peruvian_amazon
+					has_building = building_company_kablin
+					has_building = building_company_hbc
+					has_building = building_company_panama_company
+					has_building = building_company_east_india_company
+					has_building = building_company_imperial_arsenal
+					has_building = building_company_ottoman_tobacco_regie
+					has_building = building_company_allatini_mills
+					has_building = building_company_orient_express
+					has_building = building_company_great_indian_railway
+					has_building = building_company_tata
+					has_building = building_company_sunhwaguk
+					has_building = building_company_nam_dinh
+					has_building = building_company_imperial_tobacco
+					has_building = building_company_san_miguel
+					has_building = building_company_william_sandford
+					has_building = building_company_b_grimm
+					has_building = building_company_skoda
+					has_building = building_company_mav
+					has_building = building_company_manfred_weiss
+					has_building = building_company_galician_carpathian_oil
+					has_building = building_company_oevg
+					has_building = building_company_kaiping_mining
+					has_building = building_company_hanyang_arsenal
+					has_building = building_company_foochow_arsenal
+					has_building = building_company_jingdezhen
+					has_building = building_company_sao_paulo_railway
+					has_building = building_company_estaleiro_maua
+					has_building = building_company_pernambuco_textiles
+					has_building = building_company_fundicao_ipanema
+					has_building = building_company_rossi
+					has_building = building_company_estanifera_llallagua
+					has_building = building_company_argentinian_wine
+					has_building = building_company_sudamericana_de_vapores
+					has_building = building_company_electricidad_de_caracas
+					has_building = building_company_cordoba_railway
+					has_building = building_company_eea
+					has_building = building_company_ccci
+					has_building = building_company_franco_belge
+					has_building = building_company_john_cockerill
+					has_building = building_company_nederlandse_petroleum
+					has_building = building_company_philips
+					has_building = building_company_basileiades
+					has_building = building_company_kouppas
+					has_building = building_company_ericsson
+					has_building = building_company_lkab
+					has_building = building_company_gotaverken
+					has_building = building_company_aker_mek
+					has_building = building_company_nokia
+					has_building = building_company_ursus
+					has_building = building_company_lilpop
+					has_building = building_company_mozambique_company
+					has_building = building_company_altos_hornos_de_vizcaya
+					has_building = building_company_duro_y_compania
+					has_building = building_company_espana_industrial
+					has_building = building_company_trubia
+					has_building = building_company_zastava
+					has_building = building_company_chr_hansens
+					has_building = building_company_ap_moller
+					has_building = building_company_cfr
+					has_building = building_company_romanian_star
+					has_building = building_company_societe_mokta_el_hadid
+					has_building = building_company_schneider_creusot
+					has_building = building_company_dmc
+					has_building = building_company_cgv
+					has_building = building_company_saint_etienne
+					has_building = building_company_fcm
+					has_building = building_company_mines_anzin
+					has_building = building_company_krupp
+					has_building = building_company_rheinmetall
+					has_building = building_company_schichau
+					has_building = building_company_siemens_and_halske
+					has_building = building_company_prussian_state_railways
+					has_building = building_company_basf
+					has_building = building_company_j_p_coats
+					has_building = building_company_armstrong_whitworth
+					has_building = building_company_john_brown
+					has_building = building_company_gwr
+					has_building = building_company_bolckow_vaughan
+					has_building = building_company_bengal_coal_company
+					has_building = building_company_bombay_dyeing_company
+					has_building = building_company_david_sassoon
+					has_building = building_company_bombay_burmah_trading_corporation
+					has_building = building_company_madura_mills
+					has_building = building_company_assam_company
+					has_building = building_company_wadia_shipbuilders
+					has_building = building_company_steel_brothers
+					has_building = building_company_ralli_brothers
+					has_building = building_company_calcutta_electric
+					has_building = building_company_ilva
+					has_building = building_company_ansaldo
+					has_building = building_company_ricordi
+					has_building = building_company_fiat
+					has_building = building_company_stt
+					has_building = building_company_mitsui
+					has_building = building_company_mantetsu
+					has_building = building_company_mitsubishi
+					has_building = building_company_ludwig_moser_and_sons
+					has_building = building_company_compania_sansinena_de_carnes_congeladas
+					has_building = building_company_konigliche_porzellan_manufaktur_meissen
+					has_building = building_company_jiangnan_weaving_bureaus
+					has_building = building_company_russian_american_company
+					has_building = building_company_maison_worth
+					has_building = building_company_lee_wilson
+					has_building = building_company_colt_firearms
+					has_building = building_company_gebruder_thonet
+					has_building = building_company_kinkozan_sobei
+					has_building = building_company_maple_and_co
+					has_building = building_company_ong_lung_sheng_tea_company
+					has_building = building_company_anglo_sicilian_sulphur_company
+					has_building = building_company_mantero_seta
+					has_building = building_company_norsk_hydro
+					has_building = building_company_massey_harris
+					has_building = building_company_de_beers
+					has_building = building_company_john_holt
+					has_building = building_company_imperial_ethiopian_railways
+					has_building = building_company_lanfang_kongsi
+					has_building = building_company_paradox
+					has_building = building_company_vodka_monopoly
+					has_building = building_company_putilov_company
+					has_building = building_company_branobel
+					has_building = building_company_izhevsk_arms_plant
+					has_building = building_company_savva_morozov
+					has_building = building_company_john_hughes
+					has_building = building_company_da_afghan_nassaji_sherkat
+					has_building = building_company_iranian_state_railway
+					has_building = building_company_tashkent_railroad
+					has_building = building_company_west_ural_petroleum
+					has_building = building_company_sherkat_shemali
+					has_building = building_company_opium_export_monopoly
+					has_building = building_company_sherkate_eslamiya
+					has_building = building_company_nicolas_portalis
+					has_building = building_company_hanseong_jeongi_hoesa
+					has_building = building_company_kirgizian_mining_company
+					has_building = building_company_persshelk
+					has_building = building_company_perskhlopok
+					has_building = building_company_moscow_irrigation_company
+					has_building = building_company_guinness
+					has_building = building_company_oriental_development_company
+					has_building = building_company_turkish_petroleum
+					has_building = building_company_anglo_persian_oil
+					has_building = building_company_national_iranian_oil
+					has_building = building_company_standard_oil
+					has_building = building_company_united_fruit
+					has_building = building_company_us_steel
+					has_building = building_company_general_electric
+					has_building = building_company_william_cramp
+					has_building = building_company_ford_motor
+					has_building = building_company_basic_agriculture_1
+					has_building = building_company_basic_agriculture_2
+					has_building = building_company_basic_fabrics
+					has_building = building_company_basic_colonial_plantations_1
+					has_building = building_company_basic_colonial_plantations_2
+					has_building = building_company_basic_silk_and_dye
+					has_building = building_company_basic_wine_and_fruit
+					has_building = building_company_basic_fishing
+					has_building = building_company_basic_forestry
+					has_building = building_company_basic_oil
+					has_building = building_company_basic_gold_mining
+					has_building = building_company_basic_metal_mining
+					has_building = building_company_basic_mineral_mining
+					has_building = building_company_basic_food
+					has_building = building_company_basic_paper
+					has_building = building_company_basic_home_goods
+					has_building = building_company_basic_textiles
+					has_building = building_company_basic_steel
+					has_building = building_company_basic_metalworks
+					has_building = building_company_basic_shipyards
+					has_building = building_company_basic_chemicals
+					has_building = building_company_basic_motors
+					has_building = building_company_basic_munitions
+					has_building = building_company_basic_electrics
+					has_building = building_company_basic_weapons
+					has_building = building_company_construction_power_bloc
+				}
+			}
+			if = {
+				limit = {
+					has_building = building_company_headquarter
+				}
+				remove_building = building_company_headquarter
+			}
+			if = {
+				limit = {
+					has_building = building_company_misr
+				}
+				remove_building = building_company_misr
+			}
+			if = {
+				limit = {
+					has_building = building_company_egyptian_rail
+				}
+				remove_building = building_company_egyptian_rail
+			}
+			if = {
+				limit = {
+					has_building = building_company_suez_company
+				}
+				remove_building = building_company_suez_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_fundidora_monterrey
+				}
+				remove_building = building_company_fundidora_monterrey
+			}
+			if = {
+				limit = {
+					has_building = building_company_el_aguila
+				}
+				remove_building = building_company_el_aguila
+			}
+			if = {
+				limit = {
+					has_building = building_company_csfa
+				}
+				remove_building = building_company_csfa
+			}
+			if = {
+				limit = {
+					has_building = building_company_caribbean_petroleum
+				}
+				remove_building = building_company_caribbean_petroleum
+			}
+			if = {
+				limit = {
+					has_building = building_company_bunge_born
+				}
+				remove_building = building_company_bunge_born
+			}
+			if = {
+				limit = {
+					has_building = building_company_la_rosada
+				}
+				remove_building = building_company_la_rosada
+			}
+			if = {
+				limit = {
+					has_building = building_company_famae
+				}
+				remove_building = building_company_famae
+			}
+			if = {
+				limit = {
+					has_building = building_company_peruvian_amazon
+				}
+				remove_building = building_company_peruvian_amazon
+			}
+			if = {
+				limit = {
+					has_building = building_company_kablin
+				}
+				remove_building = building_company_kablin
+			}
+			if = {
+				limit = {
+					has_building = building_company_hbc
+				}
+				remove_building = building_company_hbc
+			}
+			if = {
+				limit = {
+					has_building = building_company_panama_company
+				}
+				remove_building = building_company_panama_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_east_india_company
+				}
+				remove_building = building_company_east_india_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_imperial_arsenal
+				}
+				remove_building = building_company_imperial_arsenal
+			}
+			if = {
+				limit = {
+					has_building = building_company_ottoman_tobacco_regie
+				}
+				remove_building = building_company_ottoman_tobacco_regie
+			}
+			if = {
+				limit = {
+					has_building = building_company_allatini_mills
+				}
+				remove_building = building_company_allatini_mills
+			}
+			if = {
+				limit = {
+					has_building = building_company_orient_express
+				}
+				remove_building = building_company_orient_express
+			}
+			if = {
+				limit = {
+					has_building = building_company_great_indian_railway
+				}
+				remove_building = building_company_great_indian_railway
+			}
+			if = {
+				limit = {
+					has_building = building_company_tata
+				}
+				remove_building = building_company_tata
+			}
+			if = {
+				limit = {
+					has_building = building_company_sunhwaguk
+				}
+				remove_building = building_company_sunhwaguk
+			}
+			if = {
+				limit = {
+					has_building = building_company_nam_dinh
+				}
+				remove_building = building_company_nam_dinh
+			}
+			if = {
+				limit = {
+					has_building = building_company_imperial_tobacco
+				}
+				remove_building = building_company_imperial_tobacco
+			}
+			if = {
+				limit = {
+					has_building = building_company_san_miguel
+				}
+				remove_building = building_company_san_miguel
+			}
+			if = {
+				limit = {
+					has_building = building_company_william_sandford
+				}
+				remove_building = building_company_william_sandford
+			}
+			if = {
+				limit = {
+					has_building = building_company_b_grimm
+				}
+				remove_building = building_company_b_grimm
+			}
+			if = {
+				limit = {
+					has_building = building_company_skoda
+				}
+				remove_building = building_company_skoda
+			}
+			if = {
+				limit = {
+					has_building = building_company_mav
+				}
+				remove_building = building_company_mav
+			}
+			if = {
+				limit = {
+					has_building = building_company_manfred_weiss
+				}
+				remove_building = building_company_manfred_weiss
+			}
+			if = {
+				limit = {
+					has_building = building_company_galician_carpathian_oil
+				}
+				remove_building = building_company_galician_carpathian_oil
+			}
+			if = {
+				limit = {
+					has_building = building_company_oevg
+				}
+				remove_building = building_company_oevg
+			}
+			if = {
+				limit = {
+					has_building = building_company_kaiping_mining
+				}
+				remove_building = building_company_kaiping_mining
+			}
+			if = {
+				limit = {
+					has_building = building_company_hanyang_arsenal
+				}
+				remove_building = building_company_hanyang_arsenal
+			}
+			if = {
+				limit = {
+					has_building = building_company_foochow_arsenal
+				}
+				remove_building = building_company_foochow_arsenal
+			}
+			if = {
+				limit = {
+					has_building = building_company_jingdezhen
+				}
+				remove_building = building_company_jingdezhen
+			}
+			if = {
+				limit = {
+					has_building = building_company_sao_paulo_railway
+				}
+				remove_building = building_company_sao_paulo_railway
+			}
+			if = {
+				limit = {
+					has_building = building_company_estaleiro_maua
+				}
+				remove_building = building_company_estaleiro_maua
+			}
+			if = {
+				limit = {
+					has_building = building_company_pernambuco_textiles
+				}
+				remove_building = building_company_pernambuco_textiles
+			}
+			if = {
+				limit = {
+					has_building = building_company_fundicao_ipanema
+				}
+				remove_building = building_company_fundicao_ipanema
+			}
+			if = {
+				limit = {
+					has_building = building_company_rossi
+				}
+				remove_building = building_company_rossi
+			}
+			if = {
+				limit = {
+					has_building = building_company_estanifera_llallagua
+				}
+				remove_building = building_company_estanifera_llallagua
+			}
+			if = {
+				limit = {
+					has_building = building_company_argentinian_wine
+				}
+				remove_building = building_company_argentinian_wine
+			}
+			if = {
+				limit = {
+					has_building = building_company_sudamericana_de_vapores
+				}
+				remove_building = building_company_sudamericana_de_vapores
+			}
+			if = {
+				limit = {
+					has_building = building_company_electricidad_de_caracas
+				}
+				remove_building = building_company_electricidad_de_caracas
+			}
+			if = {
+				limit = {
+					has_building = building_company_cordoba_railway
+				}
+				remove_building = building_company_cordoba_railway
+			}
+			if = {
+				limit = {
+					has_building = building_company_eea
+				}
+				remove_building = building_company_eea
+			}
+			if = {
+				limit = {
+					has_building = building_company_ccci
+				}
+				remove_building = building_company_ccci
+			}
+			if = {
+				limit = {
+					has_building = building_company_franco_belge
+				}
+				remove_building = building_company_franco_belge
+			}
+			if = {
+				limit = {
+					has_building = building_company_john_cockerill
+				}
+				remove_building = building_company_john_cockerill
+			}
+			if = {
+				limit = {
+					has_building = building_company_nederlandse_petroleum
+				}
+				remove_building = building_company_nederlandse_petroleum
+			}
+			if = {
+				limit = {
+					has_building = building_company_philips
+				}
+				remove_building = building_company_philips
+			}
+			if = {
+				limit = {
+					has_building = building_company_basileiades
+				}
+				remove_building = building_company_basileiades
+			}
+			if = {
+				limit = {
+					has_building = building_company_kouppas
+				}
+				remove_building = building_company_kouppas
+			}
+			if = {
+				limit = {
+					has_building = building_company_ericsson
+				}
+				remove_building = building_company_ericsson
+			}
+			if = {
+				limit = {
+					has_building = building_company_lkab
+				}
+				remove_building = building_company_lkab
+			}
+			if = {
+				limit = {
+					has_building = building_company_gotaverken
+				}
+				remove_building = building_company_gotaverken
+			}
+			if = {
+				limit = {
+					has_building = building_company_aker_mek
+				}
+				remove_building = building_company_aker_mek
+			}
+			if = {
+				limit = {
+					has_building = building_company_nokia
+				}
+				remove_building = building_company_nokia
+			}
+			if = {
+				limit = {
+					has_building = building_company_ursus
+				}
+				remove_building = building_company_ursus
+			}
+			if = {
+				limit = {
+					has_building = building_company_lilpop
+				}
+				remove_building = building_company_lilpop
+			}
+			if = {
+				limit = {
+					has_building = building_company_mozambique_company
+				}
+				remove_building = building_company_mozambique_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_altos_hornos_de_vizcaya
+				}
+				remove_building = building_company_altos_hornos_de_vizcaya
+			}
+			if = {
+				limit = {
+					has_building = building_company_duro_y_compania
+				}
+				remove_building = building_company_duro_y_compania
+			}
+			if = {
+				limit = {
+					has_building = building_company_espana_industrial
+				}
+				remove_building = building_company_espana_industrial
+			}
+			if = {
+				limit = {
+					has_building = building_company_trubia
+				}
+				remove_building = building_company_trubia
+			}
+			if = {
+				limit = {
+					has_building = building_company_zastava
+				}
+				remove_building = building_company_zastava
+			}
+			if = {
+				limit = {
+					has_building = building_company_chr_hansens
+				}
+				remove_building = building_company_chr_hansens
+			}
+			if = {
+				limit = {
+					has_building = building_company_ap_moller
+				}
+				remove_building = building_company_ap_moller
+			}
+			if = {
+				limit = {
+					has_building = building_company_cfr
+				}
+				remove_building = building_company_cfr
+			}
+			if = {
+				limit = {
+					has_building = building_company_romanian_star
+				}
+				remove_building = building_company_romanian_star
+			}
+			if = {
+				limit = {
+					has_building = building_company_societe_mokta_el_hadid
+				}
+				remove_building = building_company_societe_mokta_el_hadid
+			}
+			if = {
+				limit = {
+					has_building = building_company_schneider_creusot
+				}
+				remove_building = building_company_schneider_creusot
+			}
+			if = {
+				limit = {
+					has_building = building_company_dmc
+				}
+				remove_building = building_company_dmc
+			}
+			if = {
+				limit = {
+					has_building = building_company_cgv
+				}
+				remove_building = building_company_cgv
+			}
+			if = {
+				limit = {
+					has_building = building_company_saint_etienne
+				}
+				remove_building = building_company_saint_etienne
+			}
+			if = {
+				limit = {
+					has_building = building_company_fcm
+				}
+				remove_building = building_company_fcm
+			}
+			if = {
+				limit = {
+					has_building = building_company_mines_anzin
+				}
+				remove_building = building_company_mines_anzin
+			}
+			if = {
+				limit = {
+					has_building = building_company_krupp
+				}
+				remove_building = building_company_krupp
+			}
+			if = {
+				limit = {
+					has_building = building_company_rheinmetall
+				}
+				remove_building = building_company_rheinmetall
+			}
+			if = {
+				limit = {
+					has_building = building_company_schichau
+				}
+				remove_building = building_company_schichau
+			}
+			if = {
+				limit = {
+					has_building = building_company_siemens_and_halske
+				}
+				remove_building = building_company_siemens_and_halske
+			}
+			if = {
+				limit = {
+					has_building = building_company_prussian_state_railways
+				}
+				remove_building = building_company_prussian_state_railways
+			}
+			if = {
+				limit = {
+					has_building = building_company_basf
+				}
+				remove_building = building_company_basf
+			}
+			if = {
+				limit = {
+					has_building = building_company_j_p_coats
+				}
+				remove_building = building_company_j_p_coats
+			}
+			if = {
+				limit = {
+					has_building = building_company_armstrong_whitworth
+				}
+				remove_building = building_company_armstrong_whitworth
+			}
+			if = {
+				limit = {
+					has_building = building_company_john_brown
+				}
+				remove_building = building_company_john_brown
+			}
+			if = {
+				limit = {
+					has_building = building_company_gwr
+				}
+				remove_building = building_company_gwr
+			}
+			if = {
+				limit = {
+					has_building = building_company_bolckow_vaughan
+				}
+				remove_building = building_company_bolckow_vaughan
+			}
+			if = {
+				limit = {
+					has_building = building_company_bengal_coal_company
+				}
+				remove_building = building_company_bengal_coal_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_bombay_dyeing_company
+				}
+				remove_building = building_company_bombay_dyeing_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_david_sassoon
+				}
+				remove_building = building_company_david_sassoon
+			}
+			if = {
+				limit = {
+					has_building = building_company_bombay_burmah_trading_corporation
+				}
+				remove_building = building_company_bombay_burmah_trading_corporation
+			}
+			if = {
+				limit = {
+					has_building = building_company_madura_mills
+				}
+				remove_building = building_company_madura_mills
+			}
+			if = {
+				limit = {
+					has_building = building_company_assam_company
+				}
+				remove_building = building_company_assam_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_wadia_shipbuilders
+				}
+				remove_building = building_company_wadia_shipbuilders
+			}
+			if = {
+				limit = {
+					has_building = building_company_steel_brothers
+				}
+				remove_building = building_company_steel_brothers
+			}
+			if = {
+				limit = {
+					has_building = building_company_ralli_brothers
+				}
+				remove_building = building_company_ralli_brothers
+			}
+			if = {
+				limit = {
+					has_building = building_company_calcutta_electric
+				}
+				remove_building = building_company_calcutta_electric
+			}
+			if = {
+				limit = {
+					has_building = building_company_ilva
+				}
+				remove_building = building_company_ilva
+			}
+			if = {
+				limit = {
+					has_building = building_company_ansaldo
+				}
+				remove_building = building_company_ansaldo
+			}
+			if = {
+				limit = {
+					has_building = building_company_ricordi
+				}
+				remove_building = building_company_ricordi
+			}
+			if = {
+				limit = {
+					has_building = building_company_fiat
+				}
+				remove_building = building_company_fiat
+			}
+			if = {
+				limit = {
+					has_building = building_company_stt
+				}
+				remove_building = building_company_stt
+			}
+			if = {
+				limit = {
+					has_building = building_company_mitsui
+				}
+				remove_building = building_company_mitsui
+			}
+			if = {
+				limit = {
+					has_building = building_company_mantetsu
+				}
+				remove_building = building_company_mantetsu
+			}
+			if = {
+				limit = {
+					has_building = building_company_mitsubishi
+				}
+				remove_building = building_company_mitsubishi
+			}
+			if = {
+				limit = {
+					has_building = building_company_ludwig_moser_and_sons
+				}
+				remove_building = building_company_ludwig_moser_and_sons
+			}
+			if = {
+				limit = {
+					has_building = building_company_compania_sansinena_de_carnes_congeladas
+				}
+				remove_building = building_company_compania_sansinena_de_carnes_congeladas
+			}
+			if = {
+				limit = {
+					has_building = building_company_konigliche_porzellan_manufaktur_meissen
+				}
+				remove_building = building_company_konigliche_porzellan_manufaktur_meissen
+			}
+			if = {
+				limit = {
+					has_building = building_company_jiangnan_weaving_bureaus
+				}
+				remove_building = building_company_jiangnan_weaving_bureaus
+			}
+			if = {
+				limit = {
+					has_building = building_company_russian_american_company
+				}
+				remove_building = building_company_russian_american_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_maison_worth
+				}
+				remove_building = building_company_maison_worth
+			}
+			if = {
+				limit = {
+					has_building = building_company_lee_wilson
+				}
+				remove_building = building_company_lee_wilson
+			}
+			if = {
+				limit = {
+					has_building = building_company_colt_firearms
+				}
+				remove_building = building_company_colt_firearms
+			}
+			if = {
+				limit = {
+					has_building = building_company_gebruder_thonet
+				}
+				remove_building = building_company_gebruder_thonet
+			}
+			if = {
+				limit = {
+					has_building = building_company_kinkozan_sobei
+				}
+				remove_building = building_company_kinkozan_sobei
+			}
+			if = {
+				limit = {
+					has_building = building_company_maple_and_co
+				}
+				remove_building = building_company_maple_and_co
+			}
+			if = {
+				limit = {
+					has_building = building_company_ong_lung_sheng_tea_company
+				}
+				remove_building = building_company_ong_lung_sheng_tea_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_anglo_sicilian_sulphur_company
+				}
+				remove_building = building_company_anglo_sicilian_sulphur_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_mantero_seta
+				}
+				remove_building = building_company_mantero_seta
+			}
+			if = {
+				limit = {
+					has_building = building_company_norsk_hydro
+				}
+				remove_building = building_company_norsk_hydro
+			}
+			if = {
+				limit = {
+					has_building = building_company_massey_harris
+				}
+				remove_building = building_company_massey_harris
+			}
+			if = {
+				limit = {
+					has_building = building_company_de_beers
+				}
+				remove_building = building_company_de_beers
+			}
+			if = {
+				limit = {
+					has_building = building_company_john_holt
+				}
+				remove_building = building_company_john_holt
+			}
+			if = {
+				limit = {
+					has_building = building_company_imperial_ethiopian_railways
+				}
+				remove_building = building_company_imperial_ethiopian_railways
+			}
+			if = {
+				limit = {
+					has_building = building_company_lanfang_kongsi
+				}
+				remove_building = building_company_lanfang_kongsi
+			}
+			if = {
+				limit = {
+					has_building = building_company_paradox
+				}
+				remove_building = building_company_paradox
+			}
+			if = {
+				limit = {
+					has_building = building_company_vodka_monopoly
+				}
+				remove_building = building_company_vodka_monopoly
+			}
+			if = {
+				limit = {
+					has_building = building_company_putilov_company
+				}
+				remove_building = building_company_putilov_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_branobel
+				}
+				remove_building = building_company_branobel
+			}
+			if = {
+				limit = {
+					has_building = building_company_izhevsk_arms_plant
+				}
+				remove_building = building_company_izhevsk_arms_plant
+			}
+			if = {
+				limit = {
+					has_building = building_company_savva_morozov
+				}
+				remove_building = building_company_savva_morozov
+			}
+			if = {
+				limit = {
+					has_building = building_company_john_hughes
+				}
+				remove_building = building_company_john_hughes
+			}
+			if = {
+				limit = {
+					has_building = building_company_da_afghan_nassaji_sherkat
+				}
+				remove_building = building_company_da_afghan_nassaji_sherkat
+			}
+			if = {
+				limit = {
+					has_building = building_company_iranian_state_railway
+				}
+				remove_building = building_company_iranian_state_railway
+			}
+			if = {
+				limit = {
+					has_building = building_company_tashkent_railroad
+				}
+				remove_building = building_company_tashkent_railroad
+			}
+			if = {
+				limit = {
+					has_building = building_company_west_ural_petroleum
+				}
+				remove_building = building_company_west_ural_petroleum
+			}
+			if = {
+				limit = {
+					has_building = building_company_sherkat_shemali
+				}
+				remove_building = building_company_sherkat_shemali
+			}
+			if = {
+				limit = {
+					has_building = building_company_opium_export_monopoly
+				}
+				remove_building = building_company_opium_export_monopoly
+			}
+			if = {
+				limit = {
+					has_building = building_company_sherkate_eslamiya
+				}
+				remove_building = building_company_sherkate_eslamiya
+			}
+			if = {
+				limit = {
+					has_building = building_company_nicolas_portalis
+				}
+				remove_building = building_company_nicolas_portalis
+			}
+			if = {
+				limit = {
+					has_building = building_company_hanseong_jeongi_hoesa
+				}
+				remove_building = building_company_hanseong_jeongi_hoesa
+			}
+			if = {
+				limit = {
+					has_building = building_company_kirgizian_mining_company
+				}
+				remove_building = building_company_kirgizian_mining_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_persshelk
+				}
+				remove_building = building_company_persshelk
+			}
+			if = {
+				limit = {
+					has_building = building_company_perskhlopok
+				}
+				remove_building = building_company_perskhlopok
+			}
+			if = {
+				limit = {
+					has_building = building_company_moscow_irrigation_company
+				}
+				remove_building = building_company_moscow_irrigation_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_guinness
+				}
+				remove_building = building_company_guinness
+			}
+			if = {
+				limit = {
+					has_building = building_company_oriental_development_company
+				}
+				remove_building = building_company_oriental_development_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_turkish_petroleum
+				}
+				remove_building = building_company_turkish_petroleum
+			}
+			if = {
+				limit = {
+					has_building = building_company_anglo_persian_oil
+				}
+				remove_building = building_company_anglo_persian_oil
+			}
+			if = {
+				limit = {
+					has_building = building_company_national_iranian_oil
+				}
+				remove_building = building_company_national_iranian_oil
+			}
+			if = {
+				limit = {
+					has_building = building_company_standard_oil
+				}
+				remove_building = building_company_standard_oil
+			}
+			if = {
+				limit = {
+					has_building = building_company_united_fruit
+				}
+				remove_building = building_company_united_fruit
+			}
+			if = {
+				limit = {
+					has_building = building_company_us_steel
+				}
+				remove_building = building_company_us_steel
+			}
+			if = {
+				limit = {
+					has_building = building_company_general_electric
+				}
+				remove_building = building_company_general_electric
+			}
+			if = {
+				limit = {
+					has_building = building_company_william_cramp
+				}
+				remove_building = building_company_william_cramp
+			}
+			if = {
+				limit = {
+					has_building = building_company_ford_motor
+				}
+				remove_building = building_company_ford_motor
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_agriculture_1
+				}
+				remove_building = building_company_basic_agriculture_1
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_agriculture_2
+				}
+				remove_building = building_company_basic_agriculture_2
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_fabrics
+				}
+				remove_building = building_company_basic_fabrics
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_colonial_plantations_1
+				}
+				remove_building = building_company_basic_colonial_plantations_1
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_colonial_plantations_2
+				}
+				remove_building = building_company_basic_colonial_plantations_2
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_silk_and_dye
+				}
+				remove_building = building_company_basic_silk_and_dye
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_wine_and_fruit
+				}
+				remove_building = building_company_basic_wine_and_fruit
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_fishing
+				}
+				remove_building = building_company_basic_fishing
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_forestry
+				}
+				remove_building = building_company_basic_forestry
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_oil
+				}
+				remove_building = building_company_basic_oil
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_gold_mining
+				}
+				remove_building = building_company_basic_gold_mining
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_metal_mining
+				}
+				remove_building = building_company_basic_metal_mining
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_mineral_mining
+				}
+				remove_building = building_company_basic_mineral_mining
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_food
+				}
+				remove_building = building_company_basic_food
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_paper
+				}
+				remove_building = building_company_basic_paper
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_home_goods
+				}
+				remove_building = building_company_basic_home_goods
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_textiles
+				}
+				remove_building = building_company_basic_textiles
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_steel
+				}
+				remove_building = building_company_basic_steel
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_metalworks
+				}
+				remove_building = building_company_basic_metalworks
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_shipyards
+				}
+				remove_building = building_company_basic_shipyards
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_chemicals
+				}
+				remove_building = building_company_basic_chemicals
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_motors
+				}
+				remove_building = building_company_basic_motors
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_munitions
+				}
+				remove_building = building_company_basic_munitions
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_electrics
+				}
+				remove_building = building_company_basic_electrics
+			}
+			if = {
+				limit = {
+					has_building = building_company_basic_weapons
+				}
+				remove_building = building_company_basic_weapons
+			}
+			if = {
+				limit = {
+					has_building = building_company_construction_power_bloc
+				}
+				remove_building = building_company_construction_power_bloc
+			}
+		}
+	}
+}
+
+zw_remove_company_regional_headquarter_decision = {
 	is_shown = {
 		is_player = yes
 		any_scope_state = {
