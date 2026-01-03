@@ -481,6 +481,26 @@ zw_remove_company_headquarter_decision = {
 				has_building = building_company_steel_brothers
 				has_building = building_company_ralli_brothers
 				has_building = building_company_calcutta_electric
+				has_building = building_company_united_tobacco_factories
+				has_building = building_company_mate_gavrilovic
+				has_building = building_company_stabilimento_tecnico_di_fiume
+				has_building = building_company_klanicko_drustvo
+				has_building = building_company_jakub_klein
+				has_building = building_company_elso_budapesti_gozmalom
+				has_building = building_company_witkowitzer_bergbau_und_huttengewerkschaft
+				has_building = building_company_oesterreichisch_alpine_montangesellschaft
+				has_building = building_company_getzner_mutter
+				has_building = building_company_erste_brunner
+				has_building = building_company_douro_wine_company
+				has_building = building_company_secn
+				has_building = building_company_gran_azucarera
+				has_building = building_company_rodriguez_arguelles_y_cia
+				has_building = building_company_ynchausti_y_compania
+				has_building = building_company_office_cherifien_des_phosphates
+				has_building = building_company_uniao_fabril
+				has_building = building_company_pedro_domecq
+				has_building = building_company_bacardi
+				has_building = building_company_hispano_suiza
 				has_building = building_company_ilva
 				has_building = building_company_ansaldo
 				has_building = building_company_ricordi
@@ -534,6 +554,7 @@ zw_remove_company_headquarter_decision = {
 				has_building = building_company_turkish_petroleum
 				has_building = building_company_anglo_persian_oil
 				has_building = building_company_national_iranian_oil
+				has_building = building_company_ingolstadt_electrical_company
 				has_building = building_company_standard_oil
 				has_building = building_company_united_fruit
 				has_building = building_company_us_steel
@@ -675,6 +696,26 @@ zw_remove_company_headquarter_decision = {
 					has_building = building_company_steel_brothers
 					has_building = building_company_ralli_brothers
 					has_building = building_company_calcutta_electric
+					has_building = building_company_united_tobacco_factories
+					has_building = building_company_mate_gavrilovic
+					has_building = building_company_stabilimento_tecnico_di_fiume
+					has_building = building_company_klanicko_drustvo
+					has_building = building_company_jakub_klein
+					has_building = building_company_elso_budapesti_gozmalom
+					has_building = building_company_witkowitzer_bergbau_und_huttengewerkschaft
+					has_building = building_company_oesterreichisch_alpine_montangesellschaft
+					has_building = building_company_getzner_mutter
+					has_building = building_company_erste_brunner
+					has_building = building_company_douro_wine_company
+					has_building = building_company_secn
+					has_building = building_company_gran_azucarera
+					has_building = building_company_rodriguez_arguelles_y_cia
+					has_building = building_company_ynchausti_y_compania
+					has_building = building_company_office_cherifien_des_phosphates
+					has_building = building_company_uniao_fabril
+					has_building = building_company_pedro_domecq
+					has_building = building_company_bacardi
+					has_building = building_company_hispano_suiza
 					has_building = building_company_ilva
 					has_building = building_company_ansaldo
 					has_building = building_company_ricordi
@@ -728,6 +769,7 @@ zw_remove_company_headquarter_decision = {
 					has_building = building_company_turkish_petroleum
 					has_building = building_company_anglo_persian_oil
 					has_building = building_company_national_iranian_oil
+					has_building = building_company_ingolstadt_electrical_company
 					has_building = building_company_standard_oil
 					has_building = building_company_united_fruit
 					has_building = building_company_us_steel
@@ -1364,6 +1406,126 @@ zw_remove_company_headquarter_decision = {
 			}
 			if = {
 				limit = {
+					has_building = building_company_united_tobacco_factories
+				}
+				remove_building = building_company_united_tobacco_factories
+			}
+			if = {
+				limit = {
+					has_building = building_company_mate_gavrilovic
+				}
+				remove_building = building_company_mate_gavrilovic
+			}
+			if = {
+				limit = {
+					has_building = building_company_stabilimento_tecnico_di_fiume
+				}
+				remove_building = building_company_stabilimento_tecnico_di_fiume
+			}
+			if = {
+				limit = {
+					has_building = building_company_klanicko_drustvo
+				}
+				remove_building = building_company_klanicko_drustvo
+			}
+			if = {
+				limit = {
+					has_building = building_company_jakub_klein
+				}
+				remove_building = building_company_jakub_klein
+			}
+			if = {
+				limit = {
+					has_building = building_company_elso_budapesti_gozmalom
+				}
+				remove_building = building_company_elso_budapesti_gozmalom
+			}
+			if = {
+				limit = {
+					has_building = building_company_witkowitzer_bergbau_und_huttengewerkschaft
+				}
+				remove_building = building_company_witkowitzer_bergbau_und_huttengewerkschaft
+			}
+			if = {
+				limit = {
+					has_building = building_company_oesterreichisch_alpine_montangesellschaft
+				}
+				remove_building = building_company_oesterreichisch_alpine_montangesellschaft
+			}
+			if = {
+				limit = {
+					has_building = building_company_getzner_mutter
+				}
+				remove_building = building_company_getzner_mutter
+			}
+			if = {
+				limit = {
+					has_building = building_company_erste_brunner
+				}
+				remove_building = building_company_erste_brunner
+			}
+			if = {
+				limit = {
+					has_building = building_company_douro_wine_company
+				}
+				remove_building = building_company_douro_wine_company
+			}
+			if = {
+				limit = {
+					has_building = building_company_secn
+				}
+				remove_building = building_company_secn
+			}
+			if = {
+				limit = {
+					has_building = building_company_gran_azucarera
+				}
+				remove_building = building_company_gran_azucarera
+			}
+			if = {
+				limit = {
+					has_building = building_company_rodriguez_arguelles_y_cia
+				}
+				remove_building = building_company_rodriguez_arguelles_y_cia
+			}
+			if = {
+				limit = {
+					has_building = building_company_ynchausti_y_compania
+				}
+				remove_building = building_company_ynchausti_y_compania
+			}
+			if = {
+				limit = {
+					has_building = building_company_office_cherifien_des_phosphates
+				}
+				remove_building = building_company_office_cherifien_des_phosphates
+			}
+			if = {
+				limit = {
+					has_building = building_company_uniao_fabril
+				}
+				remove_building = building_company_uniao_fabril
+			}
+			if = {
+				limit = {
+					has_building = building_company_pedro_domecq
+				}
+				remove_building = building_company_pedro_domecq
+			}
+			if = {
+				limit = {
+					has_building = building_company_bacardi
+				}
+				remove_building = building_company_bacardi
+			}
+			if = {
+				limit = {
+					has_building = building_company_hispano_suiza
+				}
+				remove_building = building_company_hispano_suiza
+			}
+			if = {
+				limit = {
 					has_building = building_company_ilva
 				}
 				remove_building = building_company_ilva
@@ -1682,6 +1844,12 @@ zw_remove_company_headquarter_decision = {
 			}
 			if = {
 				limit = {
+					has_building = building_company_ingolstadt_electrical_company
+				}
+				remove_building = building_company_ingolstadt_electrical_company
+			}
+			if = {
+				limit = {
 					has_building = building_company_standard_oil
 				}
 				remove_building = building_company_standard_oil
@@ -1982,6 +2150,26 @@ zw_remove_company_regional_headquarter_decision = {
 				has_building = building_regional_company_steel_brothers
 				has_building = building_regional_company_ralli_brothers
 				has_building = building_regional_company_calcutta_electric
+				has_building = building_regional_company_united_tobacco_factories
+				has_building = building_regional_company_mate_gavrilovic
+				has_building = building_regional_company_stabilimento_tecnico_di_fiume
+				has_building = building_regional_company_klanicko_drustvo
+				has_building = building_regional_company_jakub_klein
+				has_building = building_regional_company_elso_budapesti_gozmalom
+				has_building = building_regional_company_witkowitzer_bergbau_und_huttengewerkschaft
+				has_building = building_regional_company_oesterreichisch_alpine_montangesellschaft
+				has_building = building_regional_company_getzner_mutter
+				has_building = building_regional_company_erste_brunner
+				has_building = building_regional_company_douro_wine_company
+				has_building = building_regional_company_secn
+				has_building = building_regional_company_gran_azucarera
+				has_building = building_regional_company_rodriguez_arguelles_y_cia
+				has_building = building_regional_company_ynchausti_y_compania
+				has_building = building_regional_company_office_cherifien_des_phosphates
+				has_building = building_regional_company_uniao_fabril
+				has_building = building_regional_company_pedro_domecq
+				has_building = building_regional_company_bacardi
+				has_building = building_regional_company_hispano_suiza
 				has_building = building_regional_company_ilva
 				has_building = building_regional_company_ansaldo
 				has_building = building_regional_company_ricordi
@@ -2035,6 +2223,7 @@ zw_remove_company_regional_headquarter_decision = {
 				has_building = building_regional_company_turkish_petroleum
 				has_building = building_regional_company_anglo_persian_oil
 				has_building = building_regional_company_national_iranian_oil
+				has_building = building_regional_company_ingolstadt_electrical_company
 				has_building = building_regional_company_standard_oil
 				has_building = building_regional_company_united_fruit
 				has_building = building_regional_company_us_steel
@@ -2176,6 +2365,26 @@ zw_remove_company_regional_headquarter_decision = {
 					has_building = building_regional_company_steel_brothers
 					has_building = building_regional_company_ralli_brothers
 					has_building = building_regional_company_calcutta_electric
+					has_building = building_regional_company_united_tobacco_factories
+					has_building = building_regional_company_mate_gavrilovic
+					has_building = building_regional_company_stabilimento_tecnico_di_fiume
+					has_building = building_regional_company_klanicko_drustvo
+					has_building = building_regional_company_jakub_klein
+					has_building = building_regional_company_elso_budapesti_gozmalom
+					has_building = building_regional_company_witkowitzer_bergbau_und_huttengewerkschaft
+					has_building = building_regional_company_oesterreichisch_alpine_montangesellschaft
+					has_building = building_regional_company_getzner_mutter
+					has_building = building_regional_company_erste_brunner
+					has_building = building_regional_company_douro_wine_company
+					has_building = building_regional_company_secn
+					has_building = building_regional_company_gran_azucarera
+					has_building = building_regional_company_rodriguez_arguelles_y_cia
+					has_building = building_regional_company_ynchausti_y_compania
+					has_building = building_regional_company_office_cherifien_des_phosphates
+					has_building = building_regional_company_uniao_fabril
+					has_building = building_regional_company_pedro_domecq
+					has_building = building_regional_company_bacardi
+					has_building = building_regional_company_hispano_suiza
 					has_building = building_regional_company_ilva
 					has_building = building_regional_company_ansaldo
 					has_building = building_regional_company_ricordi
@@ -2229,6 +2438,7 @@ zw_remove_company_regional_headquarter_decision = {
 					has_building = building_regional_company_turkish_petroleum
 					has_building = building_regional_company_anglo_persian_oil
 					has_building = building_regional_company_national_iranian_oil
+					has_building = building_regional_company_ingolstadt_electrical_company
 					has_building = building_regional_company_standard_oil
 					has_building = building_regional_company_united_fruit
 					has_building = building_regional_company_us_steel
@@ -2865,6 +3075,126 @@ zw_remove_company_regional_headquarter_decision = {
 			}
 			if = {
 				limit = {
+					has_building = building_regional_company_united_tobacco_factories
+				}
+				remove_building = building_regional_company_united_tobacco_factories
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_mate_gavrilovic
+				}
+				remove_building = building_regional_company_mate_gavrilovic
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_stabilimento_tecnico_di_fiume
+				}
+				remove_building = building_regional_company_stabilimento_tecnico_di_fiume
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_klanicko_drustvo
+				}
+				remove_building = building_regional_company_klanicko_drustvo
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_jakub_klein
+				}
+				remove_building = building_regional_company_jakub_klein
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_elso_budapesti_gozmalom
+				}
+				remove_building = building_regional_company_elso_budapesti_gozmalom
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_witkowitzer_bergbau_und_huttengewerkschaft
+				}
+				remove_building = building_regional_company_witkowitzer_bergbau_und_huttengewerkschaft
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_oesterreichisch_alpine_montangesellschaft
+				}
+				remove_building = building_regional_company_oesterreichisch_alpine_montangesellschaft
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_getzner_mutter
+				}
+				remove_building = building_regional_company_getzner_mutter
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_erste_brunner
+				}
+				remove_building = building_regional_company_erste_brunner
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_douro_wine_company
+				}
+				remove_building = building_regional_company_douro_wine_company
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_secn
+				}
+				remove_building = building_regional_company_secn
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_gran_azucarera
+				}
+				remove_building = building_regional_company_gran_azucarera
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_rodriguez_arguelles_y_cia
+				}
+				remove_building = building_regional_company_rodriguez_arguelles_y_cia
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_ynchausti_y_compania
+				}
+				remove_building = building_regional_company_ynchausti_y_compania
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_office_cherifien_des_phosphates
+				}
+				remove_building = building_regional_company_office_cherifien_des_phosphates
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_uniao_fabril
+				}
+				remove_building = building_regional_company_uniao_fabril
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_pedro_domecq
+				}
+				remove_building = building_regional_company_pedro_domecq
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_bacardi
+				}
+				remove_building = building_regional_company_bacardi
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_hispano_suiza
+				}
+				remove_building = building_regional_company_hispano_suiza
+			}
+			if = {
+				limit = {
 					has_building = building_regional_company_ilva
 				}
 				remove_building = building_regional_company_ilva
@@ -3180,6 +3510,12 @@ zw_remove_company_regional_headquarter_decision = {
 					has_building = building_regional_company_national_iranian_oil
 				}
 				remove_building = building_regional_company_national_iranian_oil
+			}
+			if = {
+				limit = {
+					has_building = building_regional_company_ingolstadt_electrical_company
+				}
+				remove_building = building_regional_company_ingolstadt_electrical_company
 			}
 			if = {
 				limit = {
